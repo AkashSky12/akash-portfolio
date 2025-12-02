@@ -1,0 +1,208 @@
+/* Custom CSS Variables for easy theme management */
+:root {
+    --bg-color: #1a1a1a;
+    --text-color: #f0f0f0;
+    --primary-color: #5d50c6; /* A professional violet for highlights */
+    --secondary-bg: #2a2a2a;
+    --font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Navigation & Header (Hero) --- */
+.hero-section {
+    background-color: var(--secondary-bg);
+    color: var(--text-color);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-name {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.hero-title {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.hero-highlights {
+    margin-bottom: 30px;
+}
+
+.highlight-pill {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #7b70e7; /* Lighter shade on hover */
+}
+
+/* --- Main Sections --- */
+.section {
+    padding: 60px 0;
+    border-bottom: 1px solid var(--secondary-bg);
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.download-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* --- Skills Section --- */
+.skills-section .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.skill-group {
+    background-color: var(--secondary-bg);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.skill-group h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+}
+
+.skill-list {
+    list-style-type: '⚡ '; /* Custom bullet point for flair */
+    padding-left: 20px;
+}
+
+.skill-list li {
+    margin-bottom: 8px;
+}
+
+/* --- Projects Section --- */
+.project-card {
+    background-color: var(--secondary-bg);
+    padding: 30px;
+    border-left: 5px solid var(--primary-color);
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.project-summary {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.project-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* --- Accomplishments Section --- */
+.accomplishment-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accomplishment-list li {
+    background-color: var(--secondary-bg);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: var(--primary-color);
+}
+
+.copyright {
+    margin-top: 15px;
+    opacity: 0.7;
+}
+
+/* --- Responsiveness (Mobile-First) --- */
+@media (max-width: 768px) {
+    .hero-name {
+        font-size: 2.5em;
+    }
+    .hero-title {
+        font-size: 1.2em;
+    }
+    .section-title {
+        font-size: 1.8em;
+    }
+    .skills-section .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Highlight important text (bold text for impact) */
+strong {
+    color: var(--primary-color);
+}
