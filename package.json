@@ -1,0 +1,24 @@
+{
+  "name": "akash-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/AkashSky12/akash-portfolio.git",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5000",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "i18next": "^23.0.1",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}

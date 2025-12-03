@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi \u2014 I\u2019m Akash Simon",
+    "subtitle": "Senior Quality Assurance Engineer \u2014 Automation & Performance",
+    "cta": "Download CV"
+  },
+  "about": {
+    "title": "About",
+    "p1": "Senior QA Engineer with 10+ years experience in manual and automation testing, specialising in end-to-end UI testing for web and mobile applications. Proficient in API testing, test planning, requirements elicitation and automation frameworks.",
+    "location": "Kuala Lumpur, Malaysia",
+    "email": "akash.simon@outlook.com",
+    "phone": "+60-127474204"
+  },
+  "skills": {
+    "title": "Skills",
+    "list": [
+      "Manual Testing",
+      "Automation (Playwright, Selenium)",
+      "API Testing",
+      "CI/CD",
+      "Test Strategy",
+      "Python",
+      "Java",
+      "Appium",
+      "WebdriverIO"
+    ]
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "projects": {
+    "title": "Selected Projects"
+  },
+  "contact": {
+    "title": "Contact",
+    "p": "Send a message or reach out via email."
+  },
+  "footer": {
+    "copyright": "\u00a9 2025 Akash Simon. All rights reserved."
+  }
+}
