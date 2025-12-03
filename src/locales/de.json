@@ -1,32 +1,31 @@
 {
   "nav": {
-    "home": "Start",
-    "about": "\u00dcber mich",
-    "skills": "F\u00e4higkeiten",
-    "experience": "Erfahrung",
-    "projects": "Projekte",
-    "contact": "Kontakt"
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
   },
   "hero": {
-    "title": "Hallo \u2014 Ich bin Akash Simon",
-    "subtitle": "Senior Quality Assurance Engineer \u2014 Automatisierung & Leistung",
-    "cta": "Lebenslauf herunterladen"
+    "title": "Hi \u2014 I\u2019m Akash Simon",
+    "subtitle": "Senior Quality Assurance Engineer \u2014 Automation & Performance",
+    "cta": "Download CV"
   },
   "about": {
-    "title": "\u00dcber mich",
-    "p1": "Senior QA Engineer mit \u00fcber 10 Jahren Erfahrung in manuellen und automatisierten Tests, spezialisiert auf End-to-End-UI-Tests f\u00fcr Web- und mobile Anwendungen.",
+    "title": "About",
+    "p1": "Senior QA Engineer with 10+ years experience in manual and automation testing, specialising in end-to-end UI testing for web and mobile applications. Proficient in API testing, test planning, requirements elicitation and automation frameworks.",
     "location": "Kuala Lumpur, Malaysia",
     "email": "akash.simon@outlook.com",
     "phone": "+60-127474204"
   },
   "skills": {
-    "title": "F\u00e4higkeiten",
+    "title": "Skills",
     "list": [
-      "Manuelle Tests",
-      "Automatisierung (Playwright, Selenium)",
-      "API-Tests",
+      "Manual Testing",
+      "Automation (Playwright, Selenium)",
+      "API Testing",
       "CI/CD",
-      "Teststrategie",
+      "Test Strategy",
       "Python",
       "Java",
       "Appium",
@@ -34,16 +33,16 @@
     ]
   },
   "experience": {
-    "title": "Berufserfahrung"
+    "title": "Experience"
   },
   "projects": {
-    "title": "Ausgew\u00e4hlte Projekte"
+    "title": "Selected Projects"
   },
   "contact": {
-    "title": "Kontakt",
-    "p": "Senden Sie eine Nachricht oder kontaktieren Sie mich per E-Mail."
+    "title": "Contact",
+    "p": "Send a message or reach out via email."
   },
   "footer": {
-    "copyright": "\u00a9 2025 Akash Simon. Alle Rechte vorbehalten."
+    "copyright": "\u00a9 2025 Akash Simon. All rights reserved."
   }
 }

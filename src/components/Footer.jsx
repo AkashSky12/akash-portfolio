@@ -1,12 +1,10 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
 export default function Footer(){
-  const { t } = useTranslation()
   return (
-    <footer className="footer">
+    <footer className="py-8 text-center text-sm text-gray-500">
       <div className="container">
-        <p>{t('footer.copyright')}</p>
-        <p><a href="https://github.com/AkashSky12">GitHub</a> · <a href="https://www.linkedin.com/in/akash-simon">LinkedIn</a></p>
+        <div>© 2025 Akash Simon. All rights reserved.</div>
+        <div className="mt-2"><a href="https://github.com/AkashSky12" className="mr-3">GitHub</a><a href="https://www.linkedin.com/in/akash-simon">LinkedIn</a></div>
       </div>
     </footer>
   )

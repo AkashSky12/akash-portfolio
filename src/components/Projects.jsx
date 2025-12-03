@@ -1,5 +1,4 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
 
 export default function Projects(){
   const projects = [
@@ -8,13 +7,13 @@ export default function Projects(){
     {title: 'Supply Chain Automation', desc: 'Selenium hybrid framework and CI integration', link:'#'}
   ]
   return (
-    <section className="container section" id="projects">
-      <h2>Selected Projects</h2>
-      <div className="grid">
+    <section id="projects" className="py-12">
+      <h3 className="text-xl font-semibold mb-4">Selected Projects</h3>
+      <div className="grid md:grid-cols-3 gap-4">
         {projects.map((p,i)=>(
-          <a key={i} className="card" href={p.link}>
-            <h4>{p.title}</h4>
-            <p style={{color:'var(--muted)'}}>{p.desc}</p>
+          <a key={i} className="block p-4 border rounded hover:shadow" href={p.link}>
+            <h4 className="font-semibold">{p.title}</h4>
+            <p className="text-sm text-gray-600">{p.desc}</p>
           </a>
         ))}
       </div>
