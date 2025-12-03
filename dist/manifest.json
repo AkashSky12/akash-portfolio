@@ -1,0 +1,15 @@
+{
+  "name": "Akash Simon \u2014 Portfolio",
+  "short_name": "Akash",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/favicons/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
