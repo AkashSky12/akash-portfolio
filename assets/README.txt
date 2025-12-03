@@ -1,1 +1,0 @@
-Place profile.jpg and CV here.
